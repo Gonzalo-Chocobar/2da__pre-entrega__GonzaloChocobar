@@ -8,11 +8,12 @@
     <meta name="description" content="toda la info sobre las ligas mas importantes del mundo del futbol y tambien sobre los E-Sports. LaLiga Champions SerieA">
     <meta name="keywors" content="Champions, Messi, SerieA, LaLiga, 9z, ESL CHALLENGER Katowice, Pep, campones del mundo, España, Italia">
     <title>K-sports,futbol, E-spotrs</title>
-    <link rel="stylesheet" href="/k-sports/css/style.css">
+    <link rel="icon" href="./img/favicon-32x32.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-</head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
 
-
+  </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -47,65 +48,84 @@
           </nav>
     </header>
 
-    
-    <main class="conteiner-fluid">
-        <div class="row">
-            <div class="col-sm-1 col-1"></div>
-            
-            <a href="./k-sports/champions.html" class="col-sm-10 col-10 my-4"> <div class="notprincipal">
-                <img src="./img/city2.png" alt="el city levanta la Champions" class="img-fluid img">
-                 <p class="tipografia">La final se disputara en Estambyl 10 de Junio</p>             
-             </div> </a>
-             <div class="col-sm-1 col-1"></div>
-        </div>
-        <div class="row">
-            <div class="col-sm-1 col-1"></div>
-
-            <a href="./k-sports/seriea.html" class="col-sm-10 col-10 mb-4"> <div class="notsecu">
-                <img src="./img/napoligente.png" alt="festejo de  inchas en las calles" class="img-fluid img">
-                 
-                <p class="tipografia">NAPOLI CAMPEON despues de 33 años..       
-            </div></a>
-            
-            <div class="col-sm-1 col-1"></div>
+    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active mi-carousel">
+          <img src="./img/city2.png" class="d-block w-100 d-img" alt="...">
+          <div class="carousel-caption ">
+            <a href="./k-sports/champions.html" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover"><p class="text-capitalize font3">city campeon</p></a>
+          </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm-1 col-1"></div>
-
-            <a href="./k-sports/laliga.html" class="col-sm-10 col-10 mb-4"><div class="notsecu">
-                <img src="./img/barcelona1.png" alt="jugadores y xavi con trofeo de fondo" class="img-fluid img">
-                <p class="tipografia">despues de unos largos años barcelona se consagra campeon sin Messi.... </p>
-            </div></a>
-            
-            <div class="col-sm-1 col-1"></div>
+        <div class="carousel-item mi-carousel">
+          <img src="./img/napoligente.png" class="d-block w-100 d-img" alt="...">
+          <div class="carousel-caption ">
+            <a href="./k-sports/seriea.html" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover"><p class="text-capitalize font3">Napoli campeon</p> </a>
+          </div>
         </div>
 
-        <div class="row">
-            <div class="col-sm-1 col-1"></div>
-            <a href="./k-sports/e-sports.html" class="col-sm-10 col-10 mb-4"><div class="notsecu">
-                <img src="./img/9z-3.png" alt="jugadores y coach foto de frente" class="img-fluid img">
-                <p class="tipografia">
-                    ¡9Z A IEM DALLAS! 🇦🇷
-            El conjunto violeta clasificó a IEM Dallas tras ganarle la final del closed qualifier a 00Nation por 2-0.
-                </p>
-            <div class="col-sm-1 col-1"></div>
-            </div></a>
+        <div class="carousel-item mi-carousel">
+          <img src="./img/messi.png" class="d-block w-100 d-img" alt="...">
+          <div class="carousel-caption ">
+            <a href="./k-sports/argentina.html" class="link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover"><p class="text-capitalize font3">Seleccion Argentina</p>
+            </a>
+          </div>
         </div>
-    </main>
 
-    <Footer class="conteiner-fluid bg-dark d-flex justify-content-center"> 
-            <div class="d-flex justify-content-center">
-                <a class="p-2" target="_blank" href="https://www.facebook.com/">facebook</a>
-                <a class="p-2" target="_blank" href="https://www.instagram.com/">instagram</a>
-                <a class="p-2" target="_blank" href="https://www.twitter.com/">twitter</a>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+        
+    <section class="conteiner-fluid d-flex justify-content-around reduccion">
+      <div data-aos="zoom-out-right">
+        <div class="mi-card">
+          <a href="./k-sports/e-sports.html" class="d-inline-block link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover"><img src="./img/9z-3.png" alt="" class="img-fluid"> <p class="text-capitalize text-center font3">¡9Z A IEM DALLAS! 🇦🇷</p></a>
+        </div>
+      </div>
+
+      <div data-aos="zoom-out-left">
+        <div class="mi-card">
+          <a href="./k-sports/laliga.html" class="d-inline-block link-dark link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover"><img src="./img/barcelona.png" alt="" class="img-fluid"><p class="text-capitalize text-center font3">barcelona campeon</p></a>
+        </div>
+      </div>
+    </section>
+
+    <div data-aos="flip-down">
+      <div class="m-3 bg-info">
+        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="m-3  bg-info">
+        <label for="exampleFormControlTextarea1" class="form-label">Comentarios</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </div>
+
+    <Footer class="conteiner-fluid bg-dark d-flex justify-content-around"> 
+      
+      
+      <div class="d-flex justify-content-center futer">
+                <a class="p-2 link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover font4" target="_blank" href="https://www.facebook.com/">facebook</a>
+                <a class="p-2 link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover font4" target="_blank" href="https://www.instagram.com/">instagram</a>
+                <a class="p-2 link-light link-offset-2 link-underline-opacity-0 link-underline-opacity-100-hover font4" target="_blank" href="https://www.twitter.com/">twitter</a>
             </div>
             <div class="d-flex bg-dark mt-4">
-                <iframe class="p-3" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.7571074583493!2d-65.43838843703267!3d-24.803769397252466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc255e6d1e7ef%3A0x5a05bb7e45ff0839!2sCentro%20Vecinal%20VILLA%20SAN%20JOSE!5e0!3m2!1ses!2sar!4v1684558829571!5m2!1ses!2sar" 
-                ></iframe>
-            </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.7571074583493!2d-65.43838843703267!3d-24.803769397252466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc255e6d1e7ef%3A0x5a05bb7e45ff0839!2sCentro%20Vecinal%20VILLA%20SAN%20JOSE!5e0!3m2!1ses!2sar!4v1684558829571!5m2!1ses!2sar" 
+              ></iframe>
+          </div>
     </Footer>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

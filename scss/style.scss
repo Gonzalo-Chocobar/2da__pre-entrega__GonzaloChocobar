@@ -1,0 +1,30 @@
+@import "./abstratc/extend";
+@import "./abstratc/mixim";
+@import "./abstratc/maps";
+
+
+@import "./componentes/micarousel";
+@import "./componentes/cards";
+@import "./componentes/letras";
+
+
+body{
+    overflow-x: hidden;
+}
+@media (max-width:576px) {
+    .mi-card {
+        width: 100px;
+        margin: 5px;
+    }
+    body{
+        overflow-x: hidden;
+    }
+}
+@media (max-width:874px) {
+    .mi-card {
+        display:block;
+        width: 300px;
+
+    }
+    
+}

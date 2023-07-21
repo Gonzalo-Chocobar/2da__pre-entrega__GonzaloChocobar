@@ -1,0 +1,12 @@
+.font1{
+    @include misFont(35px, impact)
+}
+.font2{
+    @include misFont(20px, georgia)
+}
+.font3{
+    @include misFont(30px, courier)
+}
+.font4{
+    @include misFont(20px, courier)
+}

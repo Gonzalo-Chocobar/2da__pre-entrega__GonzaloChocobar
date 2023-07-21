@@ -1,0 +1,8 @@
+.mi-carousel{
+    height: 700px;
+}
+.d-img{
+    height: map-get($img-carousel, ancho);
+    object-fit: map-get($img-carousel, obt-ft);
+    filter: map-get($img-carousel, filtro);
+}

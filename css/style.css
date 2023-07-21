@@ -1,0 +1,58 @@
+.mi-card {
+  display: flex;
+  width: 400px;
+  margin: 20px;
+  border: solid 1px rgb(204, 200, 200);
+}
+
+.mi-carousel {
+  height: 700px;
+}
+
+.d-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.font1 {
+  font-size: 35px;
+  font-family: impact;
+}
+
+.font2 {
+  font-size: 20px;
+  font-family: georgia;
+}
+
+.font3 {
+  font-size: 30px;
+  font-family: courier;
+}
+
+.font4 {
+  font-size: 20px;
+  font-family: courier;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 576px) {
+  .mi-card {
+    width: 100px;
+    margin: 5px;
+  }
+  body {
+    overflow-x: hidden;
+  }
+}
+@media (max-width: 874px) {
+  .mi-card {
+    display: block;
+    width: 300px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

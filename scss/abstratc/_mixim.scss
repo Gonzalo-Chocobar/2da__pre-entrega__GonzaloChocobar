@@ -1,0 +1,4 @@
+@mixin misFont($ft, $fn){
+    font-size: $ft;
+    font-family: $fn
+}
